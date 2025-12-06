@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width,initial-scale">
   </head>
   <bidy>
+     <div id="callmenu"></div>
+    <script>
+        fetch("header.html")
+          .then(res => res.text())
+           .then(data=>{
+             document.getElementById("callmenu").innerHTML = data;
+           });    
+
+     
+    </script>
     <h1> i  am here at Bhilwara!!</h1>
   </bidy>
 </html>
