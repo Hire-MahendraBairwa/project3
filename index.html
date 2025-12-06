@@ -9,7 +9,7 @@
     <script>
         fetch("header.html")
           .then(res => res.text())
-           .text(data=>{
+           .then(data=>{
              document.getElementById("callmenu").innerHTML = data;
            });    
 
