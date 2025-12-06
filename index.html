@@ -5,34 +5,14 @@
     <meta name="viewport" content="width=device-width,initial-scale">
   </head>
   <body>
-    <div class="header">
-        <div class="logo">
-           <a href="#">
-             <img src="1.jpeg">
-           </a>
-        </div>
-        <div class="menu">
-          <div class="navbar">
-          <ul>
-            <li>
-              <a href="##">Ajmer</a>
-            </li>
-            <li>
-              <a href="##">Jaipur</a>
-            </li>
-            <li>
-              <a href="##">Kota</a>
-            </li>
-            <li>
-              <a href="##">Sikar</a>
-            </li>
-            <li>
-              <a href="##">Bhilwara</a>
-            </li>
-          </ul>
-          </div>
-        </div>
-      
-    </div>
+     <div class="callmenu"></div>
+    <script>
+        fetch("header.html")
+          .then(res=>res.text())
+           .text(data=>{
+             document.getElementById("callmenu").innerHTML=data;
+           });    
+        
+    </script>
   </body>
 </html>
