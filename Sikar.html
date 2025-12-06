@@ -4,6 +4,16 @@
     
   </head>
    <body>
+     <div id="callmenu"></div>
+    <script>
+        fetch("header.html")
+          .then(res => res.text())
+           .then(data=>{
+             document.getElementById("callmenu").innerHTML = data;
+           });    
+
+     
+    </script>
      <h1>I am here at Sikar!!</h1>
    </body>
 </html>
