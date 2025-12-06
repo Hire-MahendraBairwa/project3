@@ -1,4 +1,4 @@
-  margin:0;
+ght  margin:0;
   padding:0;
 }
 .header{
@@ -29,9 +29,10 @@
   display:flex;
   }
  .navbar{
-  
+  hright:100%;
   width:100%;
-
+  dislay:flex;
+   
   }
  .navbar ul {
   display:flex;
