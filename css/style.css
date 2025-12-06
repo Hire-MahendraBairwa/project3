@@ -58,6 +58,8 @@
   width:20%;
   border:2px solid black;
   background-color:red;
+  z-index:1;
+  position:absolute;
   }
 .menu .navbar ul li.submenu li{
   list-style:none;
