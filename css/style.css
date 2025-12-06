@@ -69,3 +69,6 @@
   color:black;
   
 }
+.menu .navbar ul li:hover .submenu{
+  display:block;
+}
