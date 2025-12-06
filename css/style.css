@@ -28,12 +28,12 @@
   background-color:blue;
   display:flex;
   }
-.menu .navbar{
-  display:flex;
+ .navbar{
+  
   width:100%;
 
   }
-.menu .navbar ul {
+ .navbar ul {
   display:flex;
 
   justify-content:space-around;
@@ -41,12 +41,12 @@
   height:100%;
   
 }
-.menu .navbar ul li{
+.navbar ul li{
   list-style:none;
    
 
 }
-.munu .navbar ul li a{
+ .navbar ul li a{
   color:black;
    font-size:1vw;
  text-decoration:none;
