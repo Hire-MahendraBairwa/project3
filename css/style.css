@@ -28,5 +28,6 @@
 .menu{
   width:75%;
   background-color:blue;
-  
-}
+  display:flex;
+  }
+
