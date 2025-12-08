@@ -75,11 +75,11 @@
   color:black;
   font-size:1vw;
   text-decoration:none;
-  position:relative;
+  
+  
   text-overflow:ellipsis;
   white-space:nowrap;
    overflow:hidden;
-
   display:block;
   
 }
