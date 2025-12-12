@@ -56,37 +56,36 @@
  
 
 
- .menu .navbar ul li .submenu{
-  display:none;
-  width:20%;
-  height:auto;
-  border:2px solid black;
-  position:absolute;
+ .menu .menubar ul li .submenu {
+  display: none;
+  position: absolute;
   top:10%;
-  z-index:1;
-  background-color:magenta;
-  box-sizing:border-box;
-  overflow:hidden;
+  background: magenta;
+  border: 1px solid black;
+  width: 120px;
+  height: auto;
+  flex-direction:column;
+  padding:5px 0;
+  z-index: 10;
 }
-.menu .navbar ul li .submenu li{
-  list-style:none;
-  padding:5px 10px;
-  height:100%;
-  
-}
-.menu .navbar ul li .submenu li a{
-  color:black;
-  font-size:1vw;
-  text-decoration:none;
-  position:relative;
-  text-overflow:ellipsis;
-  white-space:nowrap;
-   overflow:hidden;
 
-  display:block;
-  
+.menu .menubar ul li .submenu li{
+  padding:8px;
+  list-style:none;
+  padding-bottom: 20%;
 }
-.menu .navbar ul li:hover .submenu{
-  display:block;
+
+.menu .menubar ul li .submenu li a{
+    font-size:16px;
+    color: white;
+}
+
+.menu .menubar ul li:hover .submenu {
+  display: block;
+}
+
+.menu .menubar ul .underline_current > a {
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 
