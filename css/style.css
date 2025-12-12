@@ -53,7 +53,10 @@
    text-decoration:none;
    position:absolute;
 }
-.menu .navbar ul li .submenu{
+ 
+
+
+ .menu .navbar ul li .submenu{
   display:none;
   width:20%;
   height:auto;
@@ -75,15 +78,12 @@
   color:black;
   font-size:1vw;
   text-decoration:none;
-  
-  
+  position:relative;
   text-overflow:ellipsis;
   white-space:nowrap;
    overflow:hidden;
+
   display:block;
   
-}
-.menu .navbar ul li:hover .submenu{
-  display:block;
 }
 
