@@ -11,6 +11,25 @@
           .then(res => res.text())
            .then(data=>{
              document.getElementById("callmenu").innerHTML = data;
+               let url = window.location.pathname;
+             let list = url.split("/");
+             let currentPage = list.pop();
+        
+        // menu me anchor tak pahuchne ka tareeka
+        let links = document.querySelectorAll(".menu .navbar  ul li a");
+        // hr anchor tag ko process karenge
+        links.forEach(link => {
+          console.log("Current page:", currentPage);
+          //pehle  anchor tag ka href ki value save karenge
+          let linkPage = link.getAttribute("href");
+          console.log("Attribute Value: " , linkPage);
+          
+          if(!linkPage) return;
+  
+          if (linkPage == currentPage) {
+            link.closest("li").classList.add("underline_current");
+          } 
+        });
            });    
 
      
