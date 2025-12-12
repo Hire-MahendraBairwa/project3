@@ -11,10 +11,10 @@
           .then(res => res.text())
            .then(data=>{
              document.getElementById("callmenu").innerHTML = data;
-               let currentPage = window.location.pathname.split("/").pop();
-        if ( !currentPage || currentPage == "#" ) {
-          currentPage = "Bhilwara.html";
-        }
+              let url = window.location.pathname;
+             let list = url.split("/");
+             let currentPage = list.pop();
+        
         // menu me anchor tak pahuchne ka tareeka
         let links = document.querySelectorAll(".menu .navbar  ul li a");
         // hr anchor tag ko process karenge
