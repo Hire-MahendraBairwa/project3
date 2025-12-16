@@ -1,25 +1,25 @@
  fetch("header.html")
-          .then(res => res.text())
-           .then(data=>{
-             document.getElementById("callmenu").innerHTML = data;
-               let currentPage = window.location.pathname.split("/").pop();
-        if ( !currentPage || currentPage == "#" ) {
-          currentPage = "Ajmer.html";
-        }
-        // menu me anchor tak pahuchne ka tareeka
-        let links = document.querySelectorAll(".menu .navbar ul li a");
-        // hr anchor tag ko process karenge
-        links.forEach(link => {
-          console.log("Current page:", currentPage);
-          //pehle  anchor tag ka href ki value save karenge
-          let linkPage = link.getAttribute("href");
-          console.log("Attribute Value: " , linkPage);
-          
-          if(!linkPage) return;
-  
-          if (linkPage == currentPage) {
-            link.closest("li").classList.add("underline_current");
-          } 
-        });
-            
-           });    
+     .then(res => res.text())
+     .then(data => {
+         document.getElementById("callmenu").innerHTML = data;
+         let currentPage = window.location.pathname.split("/").pop();
+         if (!currentPage || currentPage == "#") {
+             currentPage = "Ajmer.html";
+         }
+         // menu me anchor tak pahuchne ka tareeka
+         let links = document.querySelectorAll(".menu .navbar ul li a");
+         // hr anchor tag ko process karenge
+         links.forEach(link => {
+             console.log("Current page:", currentPage);
+             //pehle  anchor tag ka href ki value save karenge
+             let linkPage = link.getAttribute("href");
+             console.log("Attribute Value: ", linkPage);
+
+             if (!linkPage) return;
+
+             if (linkPage == currentPage) {
+                 link.closest("li").classList.add("underline_current");
+             }
+         });
+
+     });
