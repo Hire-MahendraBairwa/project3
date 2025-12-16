@@ -60,11 +60,14 @@
   height:auto;
   border:2px solid black;
   position:absolute;
-  top:15%;
+  top:100%;
   z-index:1;
   background-color:magenta;
   box-sizing:border-box;
   overflow:hidden;
+  left:50%;
+  transfrom:translateX(-50%);
+  flex-direction:column;
 }
 .menu .navbar ul li .submenu li{
   list-style:none;
