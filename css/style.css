@@ -63,7 +63,7 @@
  
 .menu .navbar ul li .submenu{
   display:none;
-  width:150%;
+  width:150px;
   height:auto;
   border:2px solid black;
   position:absolute;
