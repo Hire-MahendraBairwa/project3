@@ -150,4 +150,22 @@
 		width: 100%;
 		height: 100%;
 	}
+	.hamberger{
+		widht:100%;
+		height:100%;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		background-color:red;
+		cursor:pointer;
+	}
+	.hamberger span{
+		width:20px;
+		height:2px;
+		background-color:white;
+		display:block;
+		border-radius:2px;
+		box-shadow: 0 7px 0white , 0 7px 0white;
+		
+	}
 }
