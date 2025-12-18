@@ -129,7 +129,7 @@
 		background-color: white;
 	}
 
-	.header.logo a {
+	.header .logo a {
 		width: 50%;
 		background-color: white;
 		justify-content: none;
