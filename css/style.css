@@ -124,33 +124,33 @@
 		background: white;
 	}
 
-	.logo {
+	.header .logo {
 		width: 50%;
 		background-color: white;
 	}
 
-	.logo a {
+	.header.logo a {
 		width: 50%;
 		background-color: white;
 		justify-content: none;
 		padding-left: 20%;
 	}
 
-	.menu {
+	.header .menu {
 		width: 50%;
 		background-color: white;
 	}
 
-	.navbar {
+	.header .menu .navbar {
 		width: 0%;
 		height: 0%;
 	}
 
-	.mobilebar {
+	.header .menu .mobilebar {
 		width: 100%;
 		height: 100%;
 	}
-	.hamberger{
+	.header .menu .mobilebar .hamberger{
 		widht:100%;
 		height:100%;
 		display:flex;
@@ -159,7 +159,8 @@
 		background-color:red;
 		cursor:pointer;
 	}
-	.hamberger span{
+	
+	.header .menu .mobilebar .hamberger span{
 		width:20px;
 		height:2px;
 		background-color:white;
