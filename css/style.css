@@ -166,7 +166,7 @@
 		background-color:white;
 		display:block;
 		border-radius:2px;
-		box-shadow: 0 7px 0 white , 0 7px 0 white;
+		box-shadow: 0 7px 0 white , 0 -7px 0 white;
 		 
 	}
 }
