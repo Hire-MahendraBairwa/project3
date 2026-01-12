@@ -116,6 +116,13 @@
 	text-decoration-color: red;
 }
 
+
+.signInpage{
+	width:100vw;
+	height:100vh;
+	background-image: url();
+}
+
 @media (max-width: 576px) {
 	.header {
 		height: 5%;
