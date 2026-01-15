@@ -117,11 +117,47 @@
 }
 
 
-.signInpage{
-	width:100vw;
-	height:100vh;
-	background-image: url();
+
+.signInPage {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/lms.png");
+  background-position: center;
+  background-size: cover;
 }
+
+.form {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#userform {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 5vw;
+  color: white;
+  text-align: center;
+}
+
+input, button {
+  width: 50vw;
+  font-size: 2vw;
+  text-align: center;
+  border: 0.15vw solid grey;
+  border-radius: 0.15vw;
+}
+
+input:focus {
+  outline: none;
+}
+
 
 @media (max-width: 576px) {
 	.header {
